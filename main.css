@@ -1,0 +1,69 @@
+section
+{
+    border-style: solid;
+    /* border-top: 10px;
+    border-bottom: 10px;
+    border-left: 20px;
+    border-right: 20px; */
+    border-width: 0px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-color: red;
+}
+
+#paragraph1, #paragraph2
+{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 10px;
+    border-color: green;
+}
+
+#border__dotted
+{
+    border-style: dotted;
+    border-width: 10px;
+    border-color: blue;
+}
+
+#border__inset
+{
+    border-style: inset;
+    border-width: 10px;
+    border-color: blue;
+}
+
+#border__crimson
+{
+    border-style: solid;
+    border-width: 10px;
+    border-color: crimson;
+}
+
+img
+{
+    border-radius: 50%;
+}
+
+p:nth-last-child(2)
+{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 10px;
+    border-color: yellow;
+}
+
+div:nth-child(1)
+{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 10px;
+    border-color: yellow;
+}
+
+button
+{
+    border-style: none;
+    border-radius: 5px;
+    background-color: chocolate;
+}
